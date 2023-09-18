@@ -127,5 +127,3 @@ alter table "public"."TimeRestriction" add constraint "TimeRestriction_id_key" U
 alter table "public"."TimeRestriction" add constraint "TimeRestriction_organizationId_fkey" FOREIGN KEY ("organizationId") REFERENCES "Organiztion"(id) not valid;
 
 alter table "public"."TimeRestriction" validate constraint "TimeRestriction_organizationId_fkey";
-
-
